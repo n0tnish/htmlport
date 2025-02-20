@@ -1,0 +1,109 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Trade Gothic LT Bold', sans-serif;
+    background-color: #ffffff;
+}
+
+/* Navbar Styling */
+nav {
+    background-color: #fce902;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none; /* Removes bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers the menu */
+    gap: 20px; /* Adds spacing between menu items */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e22797; /* Customize color */
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #8f165e;
+}
+
+/* Section Styling */
+section {
+    margin: 0;
+    padding: 50px 0; /* Adjust for spacing */
+    width: 100%;
+}
+
+/* Home Section */
+.home {
+    background-color: #fce902;
+    min-height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+    color: #e22797;
+    text-transform: uppercase;
+}
+
+.intro {
+    text-transform: uppercase;
+    color: #e22797;
+    font-size: 1.2em;
+}
+
+/* Typing Cursor Effect */
+span {
+    border-right: 0.05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* About Section */
+.about {
+    background-color: #e22797 !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: rgb(211, 185, 185);
+}
+
+.info {
+    color: rgb(211, 185, 185);
+    font-size: 1.2em;
+    max-width: 80%;
+    text-align: center;
+}
