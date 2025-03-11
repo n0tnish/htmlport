@@ -3,33 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Nish Digital</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <!--Home Section-->
-    <section class="home">
-        <h1 class="Welcome">Welcome to nish online</h1>
-        <p class="intro"> Web designer || Web developer || Digital Marketing Strategist || Just a girl </p>
-        
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <h1 id="welcome-text">Welcome to <span>N</span><span>i</span><span>s</span><span>h</span> Digital</h1>
+        <p class="intro">Web Developer | Designer | Branding Specialist | Digital Marketing Strategist</p>
     </section>
-    <!--About Section-->
-    <section class="about">
-            <h2>More about nish</h2>
-            <p class="info">My name is Ni-shaat Gafieldien. I am a web designer, web developer & digital marketing strategist. I  </p>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="about-heading">More about Nish</h2>
+        <p class="info1">Hi, I’m Ni-shaat Gafieldien, a Frontend Web Developer, Branding Specialist, and Digital Marketing Strategist. 
+            I specialize in designing user-friendly, responsive websites while ensuring brand consistency across all digital platforms. 
+            With a strong background in SEO, content management, and UX/UI design, I bring technical expertise and creative vision to every project.</p>
+        <p class="info">Why work with me?</p>
+        <ul class="skills">
+            <li>✔️ Strong background in Web Development & Design</li>
+            <li>✔️ Certified SEO & Digital Marketing Strategist</li>
+            <li>✔️ Experience in content management & brand building</li>
+            <li>✔️ Passionate about collaborating & delivering quality work on time</li>
+        </ul>
     </section>
-    <!--Services Section-->
+
+    <!-- Services Section -->
+    <section id="work" class="work">
+        <h2>My Work</h2>
+        <div class="work-container">
+            <!-- SugarBakez -->
+            <div class="work-card">
+                <img src="https://via.placeholder.com/400x250" alt="SugarBakez Project">
+                <h3>SugarBakez</h3>
+                <p>A beautifully designed bakery website showcasing delicious treats.</p>
+                <a href="https://sugarbakez.netlify.app/" target="_blank" class="btn">View Project</a>
+            </div>
+    
+            <!-- Baked by A -->
+            <div class="work-card">
+                <img src="https://via.placeholder.com/400x250" alt="Baked by A Project">
+                <h3>Baked by A</h3>
+                <p>An elegant bakery website focused on branding and user-friendly design.</p>
+                <a href="https://baked-by-a.vercel.app/" target="_blank" class="btn">View Project</a>
+            </div>
+    
+            <!-- Persona Test -->
+            <div class="work-card">
+                <img src="https://via.placeholder.com/400x250" alt="Persona Test Project">
+                <h3>Persona Test</h3>
+                <p>A dynamic and interactive website for persona testing.</p>
+                <a href="https://personatest.lcstudio-incubate.co.za/" target="_blank" class="btn">View Project</a>
+            </div>
+    
+            <!-- Nurul Huda -->
+            <div class="work-card">
+                <img src="https://via.placeholder.com/400x250" alt="Nurul Huda Project">
+                <h3>Nurul Huda</h3>
+                <p>A Wix-built website with a focus on simplicity and aesthetics.</p>
+                <a href="https://nishaat113.wixsite.com/nurulhuda" target="_blank" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p class="info2">Reach out for collaborations, inquiries, or just to say hi!</p>
+        <p class="email">Email: <a href="mailto:nishaatgafieldien@gmail.com">nishaatgafieldien@gmail.com</a></p>
+        <p class="phone">Phone: 072 029 2878</p>
+        <p class="portfolio">Portfolio: <a href="https://nishdigital.netlify.app" target="_blank">nishdigital.netlify.app</a></p>
+    </section>
+
     <script src="index.js"></script>
 </body>
 </html>
