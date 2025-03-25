@@ -71,7 +71,6 @@ section {
 h1 {
     font-size: 5em;
     color: #e195b1;
-    text-transform: lowercase;
     font-family: 'Hello Paris Sans Regular';
     
 }
@@ -108,10 +107,11 @@ h1 {
     left: 50%;
     bottom: 5px;
     transform: translateX(-50%); */
+    
     .about h2 {
-        font-size: 2.5em;
+        font-size: 5em;
         margin-bottom: 30px;
-        text-transform: lowercase;
+        
         font-family: 'Hello Paris Sans Regular';
         background: linear-gradient(90deg, #aa1e23, #d45d89);
         -webkit-background-clip: text;
@@ -123,29 +123,26 @@ h1 {
         display: inline-block;
         animation: blinkCursor 0.8s infinite;
     }
+
+  
     
     /* Cursor Blinking */
     @keyframes blinkCursor {
         50% {
             border-color: transparent;
         }
+       
     }
     
 
 
 
 
-.about p,  .skills {
+.skills{
     color: #aa1e23;
     font-size: 1.5em;
     max-width: 80%;
-    
-}
-.info1, li, .info{
-    padding: 2%;
-    color: #aa1e23 !important ;
-    font-size: 1.5em;
-    max-width: 80%;
+    text-transform: uppercase;
 }
 .about{
     margin-top: -70px;
@@ -345,8 +342,9 @@ h1 {
 /* Typewriter Cursor */
 .cursor {
     font-weight: bold;
-    color: #feeadd;
-    animation: blink 0.8s infinite;
+    display: inline-block;
+    animation: blink 0.7s infinite;
+    margin-left: -2px; /* Moves cursor closer to text */
 }
 
 @keyframes blink {
@@ -354,3 +352,5 @@ h1 {
         opacity: 0;
     }
 }
+
+

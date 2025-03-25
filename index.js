@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var dataText = [
         "Welcome to Nish Online,",
 
-        "Welcome to Nish Digital."
+        "Welcome to Nish  Digital."
     ];
 
     let target = document.getElementById("welcome-text"); // Fixes incorrect selector
@@ -64,22 +64,3 @@ window.addEventListener("scroll", function () {
 
 
 /* About Section type effect */
-document.addEventListener("DOMContentLoaded", function () {
-    const aboutHeading = document.querySelector(".about-heading");
-    if (!aboutHeading) return console.error("Error: .about-heading not found!");
-
-    const text = "More About Nish";
-    let i = 0;
-
-    function typeWriter() {
-        if (i < text.length) {
-            aboutHeading.innerHTML = text.substring(0, i + 1);
-            setTimeout(typeWriter, 100);
-            i++;
-        } else {
-            aboutHeading.innerHTML = text; // Remove cursor after typing
-        }
-    }
-
-    typeWriter();
-});
