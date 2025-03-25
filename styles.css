@@ -108,31 +108,7 @@ h1 {
     bottom: 5px;
     transform: translateX(-50%); */
     
-    .about h2 {
-        font-size: 5em;
-        margin-bottom: 30px;
-        
-        font-family: 'Hello Paris Sans Regular';
-        background: linear-gradient(90deg, #aa1e23, #d45d89);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        overflow: hidden;
-        white-space: nowrap;
-        border-right: 3px solid #aa1e23;
-        width: 100%;
-        display: inline-block;
-        animation: blinkCursor 0.8s infinite;
-    }
 
-  
-    
-    /* Cursor Blinking */
-    @keyframes blinkCursor {
-        50% {
-            border-color: transparent;
-        }
-       
-    }
     
 
 
